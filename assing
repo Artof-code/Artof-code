@@ -31,7 +31,7 @@ try:
     conn.commit()
 
 except Exception as error:
-    print(error).
+    print(error)
 
 finally:
     if cur is not None:
